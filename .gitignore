@@ -1,0 +1,33 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+.venv
+env/
+venv/
+env.bak/
+venv.bak/
+
+.DS_Store  # macOS
+.idea/     # PyCharm
+.vscode/   # VS Code (optional, as some settings might be useful to share)
+*.swp      # vim temporary files
+*~         # temporary files
+
+.coverage
+.pytest_cache/
+htmlcov/
+xmlcov/
+
+*.db
+test.db
+
+.env
+.env.*
+
+
+migrations/__pycache__/
+alembic/__pycache__/
+
+*.db
+*.sqlite3
